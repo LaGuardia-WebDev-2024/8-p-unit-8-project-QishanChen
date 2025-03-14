@@ -13,7 +13,7 @@ drawShark(300,100);
 
 //🟢draw Function - will run on repeat
 draw = function(){
-
+drawBubble(random(50, 650), random(50, 550)); 
 };
 
 
@@ -40,11 +40,10 @@ textSize(60);
 fill(100);
 text("🐬",SharkX,SharkY);
 };
+ 
 
 
-draw = function(){
-    drawBubble(random(50, 650), random(50, 550)); 
-};
+   
 
 
 var drawBubble = function(x, y){

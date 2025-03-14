@@ -4,22 +4,23 @@
 }
 
 body {
-  background-color: aliceblue;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/022/983/842/non_2x/sky-and-sun-at-sea-background-ocean-and-beach-vector-island-scenery-empty-cartoon-ocean-or-sea-water-with-waves-and-clouds-in-sky-summer-blue-seascape-with-cloudy-sky-and-seaside-generative-ai-photo.jpg");
+  background-color: pink;
   text-align: center;
   color: navy;
   margin: auto;
-  font-family: water;
+  font-family: Lucida Console;
 }
 
 h1{
-  font-size: 30px;
+  font-size: 60px;
 }
 
 #myCanvas {
   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/131/101/small_2x/ocean-scenery-cartoon-background-free-vector.jpg");
   background-size: 600px 400px;
-  border-radius: 70px;
-  border: 5px solid white;
+  border-radius: 10px;
+  border: 5px solid navy;
 }
 
 
